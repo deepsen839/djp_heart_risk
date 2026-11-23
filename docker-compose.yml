@@ -22,7 +22,7 @@ services:
   streamlit:
     build: .
     image: djp-heart-risk:local
-    command: streamlit run app/streamlit_app.py --server.address 0.0.0.0 --server.port 8501 --browser.gatherUsageStats false
+    command: streamlit run app/streamlit_app_docker.py --server.address 0.0.0.0 --server.port 8501 --browser.gatherUsageStats false
     environment:
       DJP_API_URL: http://api:8000
       MLFLOW_TRACKING_URI: http://mlflow:5000
