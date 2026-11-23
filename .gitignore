@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+*.log
+.DS_Store
+data/raw/*
+data/processed/*
+ models/*.joblib
+ models/*.json
+ reports/*.png
+ reports/*.csv
+ reports/*.json
+!data/README.md
+!models/README.md
+!reports/README.md
+feature_store/data/*.parquet
+feature_store/data/*.db
+feature_store/data/*.db-shm
+feature_store/data/*.db-wal

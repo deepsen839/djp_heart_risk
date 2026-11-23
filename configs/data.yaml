@@ -1,0 +1,8 @@
+# Public source used by the existing supervised-learning pipeline.
+dataset:
+  name: UCI Cleveland Heart Disease
+  provider: UCI Machine Learning Repository
+  repository_id: 45
+  target: num
+  task: binary_classification
+  note: Cross-sectional public dataset; not the Feast entity/time-series source.

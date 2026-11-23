@@ -1,0 +1,46 @@
+
+O
+/
+__dummy"
+__dummy_idJdjp_heart_risk_synthetic
+·¢‘Øø×ôŞ·¢‘Øø×ôŞ
+¢
+
+synthetic_person_id;Synthetic entity identifier; not linked to any real person."synthetic_person_idJdjp_heart_risk_synthetic
+·¢‘Ø°ÑşŞ·¢‘Ø°ÑşŞ1"$5acaec8c-14e6-4b39-a429-2281de47121e*à­‘ØÈï½2Ã
+ü
+synthetic_heart_risk_featuresdjp_heart_risk_syntheticsynthetic_person_id"
+age"
+systolic_bp"
+cholesterol"
+resting_heart_rate"
+activity_minutes_7d"
+smoking_flag"
+bmi*
+data_origin	synthetic*
+usefeature_store_demo_only2€†°–:Îevent_timestamp*created_timestampZ53/app/feature_store/data/heart_risk_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢synthetic_heart_risk_source’ß­‘Øàƒ§÷"ß­‘Øàƒ§÷@b
+synthetic_person_id’latestB
+·¢‘Øˆêˆßà­‘Ø€ÁÑ¼
+€È¬€«©º
+€È¬€«©º0R¡
+
+,feast.infra.online_stores.sqlite.SqliteTable"n
+4/app/feature_store/feature_repo/data/online_store.db6djp_heart_risk_synthetic_synthetic_heart_risk_featuresbéevent_timestamp*created_timestampZ53/app/feature_store/data/heart_risk_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢synthetic_heart_risk_sourceªdjp_heart_risk_synthetic’·¢‘Ø˜°Õ"·¢‘Ø¸ÕàŞŠ:
+
+djp_heart_risk_synthetic
+·¢‘Øè¥ÜÕ·¢‘Øè¥ÜÕ’
+›
+synthetic_heart_risk_featuresdjp_heart_risk_synthetic"feature_view*
+ü
+synthetic_heart_risk_featuresdjp_heart_risk_syntheticsynthetic_person_id"
+age"
+systolic_bp"
+cholesterol"
+resting_heart_rate"
+activity_minutes_7d"
+smoking_flag"
+bmi*
+data_origin	synthetic*
+usefeature_store_demo_only2€†°–:Îevent_timestamp*created_timestampZ53/app/feature_store/data/heart_risk_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢synthetic_heart_risk_source’·¢‘Ø˜°Õ"·¢‘Ø¸ÕàŞ@b
+synthetic_person_id’latest
+·¢‘Øˆêˆß·¢‘Øˆêˆß2·¢‘ØÀ†±ßB$090f0510-3ddf-46eb-945f-b60d60a906b1

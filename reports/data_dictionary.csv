@@ -1,0 +1,15 @@
+field,meaning,type,units_categories,missing,handling
+age,Age,numeric,years,0,Median imputation
+trestbps,Resting blood pressure,numeric,mm Hg,0,Median imputation
+chol,Serum cholesterol,numeric,mg/dL,0,Median imputation
+thalach,Maximum heart rate achieved,numeric,beats/min,0,Median imputation
+oldpeak,ST depression induced by exercise relative to rest,numeric,source measurement,0,Median imputation
+sex,"Recorded sex code (0=female, 1=male in source)",categorical,0/1,0,Most-frequent imputation + one-hot encoding
+cp,Chest-pain type code,categorical,1-4 source codes,0,Most-frequent imputation + one-hot encoding
+fbs,Fasting blood sugar >120 mg/dL indicator,categorical,0/1,0,Most-frequent imputation + one-hot encoding
+restecg,Resting ECG category,categorical,0-2 source codes,0,Most-frequent imputation + one-hot encoding
+exang,Exercise-induced angina indicator,categorical,0/1,0,Most-frequent imputation + one-hot encoding
+slope,Peak exercise ST segment slope code,categorical,1-3 source codes,0,Most-frequent imputation + one-hot encoding
+ca,Number of major vessels (0-3) coloured by fluoroscopy,categorical,0-3; missing in source,4,Most-frequent imputation + one-hot encoding
+thal,Thalassemia test category code,categorical,source codes; missing in source,2,Most-frequent imputation + one-hot encoding
+target,Binary benchmark label: 0=no disease; 1=any positive original disease-severity value,binary,0/1,0,Binary target; rows with missing target excluded

@@ -1,0 +1,37 @@
+{
+  "selected_model": "random_forest",
+  "seed": 42,
+  "split": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "selection_metric": "validation ROC-AUC; CV ROC-AUC tie-break",
+  "probability_calibration": "sigmoid via 5-fold CalibratedClassifierCV on train+validation only",
+  "cv": "5-fold stratified on training partition only",
+  "test_used_for_selection": false,
+  "train_rows": 181,
+  "validation_rows": 61,
+  "test_rows": 61,
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "model_version": "djp-heart-risk-1.0.0",
+  "pipeline_version": "preprocess-train-v1",
+  "python": "3.11.18",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.9.1",
+  "trained_at_utc": "2026-11-23T15:33:56.422316+00:00"
+}

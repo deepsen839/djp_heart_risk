@@ -1,0 +1,17 @@
+groups:
+  - name: djp-api-alerts
+    rules:
+      - alert: DJPApiDown
+        expr: up{job="djp-heart-risk-api"} == 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: DJP API is unreachable
+      - alert: DJPApiHighErrorRate
+        expr: sum(rate(djp_api_requests_total{status="error"}[5m])) > 0
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: DJP API reports request errors

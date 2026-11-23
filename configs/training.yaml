@@ -1,0 +1,13 @@
+seed: 42
+split:
+  train: 0.60
+  validation: 0.20
+  test: 0.20
+cross_validation:
+  strategy: StratifiedKFold
+  folds: 5
+  shuffle: true
+  random_state: 42
+artifacts:
+  model: models/heart_risk_pipeline.joblib
+  reports: reports/

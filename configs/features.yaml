@@ -1,0 +1,19 @@
+feature_store:
+  enabled_for_demo: true
+  provider: local
+  source: synthetic_longitudinal
+  entity: synthetic_person_id
+  event_timestamp: event_timestamp
+  offline_store: parquet_file
+  online_store: sqlite
+  features:
+    - age
+    - systolic_bp
+    - cholesterol
+    - resting_heart_rate
+    - activity_minutes_7d
+    - smoking_flag
+    - bmi
+  safety:
+    synthetic_only: true
+    use_for_clinical_decisions: false

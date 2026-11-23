@@ -1,0 +1,13 @@
+model_selection:
+  metric: roc_auc
+  tie_break_metric: cv_roc_auc_mean
+  candidates:
+    - dummy_classifier
+    - logistic_regression
+    - random_forest
+    - xgboost
+calibration:
+  method: sigmoid
+  cv: 5
+  fit_partition: train_plus_validation
+  test_partition_used_for_calibration: false
